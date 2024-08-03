@@ -1,0 +1,23 @@
+mat-card {
+    box-shadow: unset;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+}
+.user_avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.user_avatar > img {
+    margin: 0px;
+    height: 100px;
+    min-width: max-content;
+}
+mat-card-content {
+    margin-bottom: 30px;
+}

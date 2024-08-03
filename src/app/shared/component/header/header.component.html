@@ -1,0 +1,19 @@
+
+
+<mat-toolbar class="bg-primary text-white navbar">
+  <span>Users Dashboard</span>
+
+  <!-- <div>Users</div> -->
+
+  <form class="col-4">
+      <input type="text"  
+      (keyup.enter)="search(searchId)"
+      id="id" 
+      name="id"  placeholder="Search by ID"
+      [(ngModel)]="searchId" class="form-control search_input" >
+    <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+  </form>
+
+</mat-toolbar>
+
+

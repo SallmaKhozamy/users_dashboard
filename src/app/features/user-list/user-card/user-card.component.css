@@ -1,0 +1,32 @@
+.user_card {
+    box-shadow: 1px 1px 5px 1px rgb(221, 219, 219);
+    border-radius: 15px;
+    display: flex;
+    height: max-content !important;
+    padding: 15px;
+}
+.user_card:hover {
+    transform: scale(1, 1.1);
+    background-color: rgba(235, 232, 232, 0.578);
+    transition-timing-function: ease-in-out;
+    cursor:pointer;
+}
+::ng-deep .mat-mdc-list-item-unscoped-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mat-mdc-list-item-unscoped-content {
+    flex-wrap: wrap;   
+}
+ul {
+    list-style: none;
+    padding:0px;
+    margin: 0px;
+}
+img {
+    height: 100%;
+    
+}

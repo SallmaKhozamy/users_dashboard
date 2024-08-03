@@ -1,0 +1,14 @@
+<div class="users">
+<ul>
+    <li *ngFor="let user of users" (click)="viewDetails(user.id)">
+        <app-user-card [fname]="user.first_name" [lname]="user.last_name" [id]="user.id" [avatar]="user.avatar"></app-user-card>
+      </li>
+</ul>
+
+<mat-paginator 
+[pageSize]="pageSize" 
+[length]="totalUsers" 
+(page)="onPageChange($event)">
+</mat-paginator>
+
+</div>
